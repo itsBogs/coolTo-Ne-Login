@@ -3,8 +3,7 @@
 > A stylish anime-inspired login interface designed for modern web applications.
 
 ## 📸 Preview
-
-[# coolTo-Ne-Login](https://github.com/itsBogs/coolTo-Ne-Login/blob/816ddc27df3ee3aa5caa77101b853d7efd8f5c32/main.jpg)
+![Pictora Login Preview](https://github.com/itsBogs/coolTo-Ne-Login/blob/816ddc27df3ee3aa5caa77101b853d7efd8f5c32/main.jpg)
 ---
 
 ## ✨ Features
