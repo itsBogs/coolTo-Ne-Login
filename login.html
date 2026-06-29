@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loginibogs</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body class="back">
+
+  <input type="checkbox" id="darkModeToggle" class="pangdark">
+  <label for="darkModeToggle" class="toggle-container">
+    <div class="toggle-circle"></div>
+  </label>
+
+  <input type="checkbox" id="submitToggle">
+
+  <div class="container">
+    <div class="login-form">
+      <h1>Welcome To Pictora!</h1>
+      <h5>A world where images come alive</h5>
+      <br>
+      <h3>High-quality pictures.<br>
+          Premium experiences.<br>
+          Only at Pictora!
+      </h3>
+      <br>
+
+      <form>
+        <div class="input">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="example@email.com" required>
+        </div>
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="At least 8 characters" required>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+      
+        <label for="submitToggle" class="log" style="display: inline-block; text-align: center;">Sign In</label>
+
+        <div class="divider">OR</div>
+
+        <div class="social-login">
+          <button type="button" class="googb">Sign in with Google</button>
+          <button type="button" class="faceb">Sign in with Facebook</button>
+        </div>
+
+        <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+      </form>
+
+    </div>
+
+    <div class="image-side">
+      <div class="slider">
+        <img src="cover.jpg" class="slide">
+        <img src="cover2.jpg" class="slide">
+        <img src="cover3.jpg" class="slide">
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+</html>
